@@ -1,0 +1,225 @@
+/* BEGIN RESET DEFAULT */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0px;
+}
+
+/* END RESET DEFAULT */
+
+/* BEGIN GENERRAL */
+.float-left {
+    float: left;
+}
+
+.clear-float {
+    clear: both
+}
+
+.w-50-per {
+    width: 50%;
+}
+
+.w-33-per {
+    width: 33%;
+}
+
+.w-25-per {
+    width: 25%;
+}
+
+.product-item img {
+    width: 100%;
+}
+
+/* END GENERRAL */
+
+/* BEGIN HEADER */
+
+.header img {
+    width: 200px;
+}
+
+/* END HEADER */
+
+/* BEGIN NAV */
+.navbar {
+    background-color: #000;
+    padding: 15px;
+}
+
+.navbar-list {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-list .navbar-item {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.navbar-list .navbar-item a {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.navbar-list .navbar-item a:hover {
+    color: red;
+}
+
+/* END NAV */
+
+/* BEGIN CAROUSEL */
+
+.carousel {
+    background-image: url(./../images/slider_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+/* END CAROUSEL */
+
+/* BEGIN INTRO */
+.intro .intro__text {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-indent: 40px;
+    color: gray;
+    text-align: justify;
+    margin: 15px 0;
+}
+
+.introl__text .introl__text--red {
+    color: red;
+}
+
+.intro .product-item {
+    padding: 10px;
+}
+
+/* END INTRO */
+
+/* BEGIN BEST SELLER */
+.best-seller {
+    padding: 30px;
+}
+
+.best-seller .product-item {
+    padding: 5px;
+}
+
+.best-seller .seller-title {
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.product-item .item-tile {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+.product-item .item-btn {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    border: 0px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* END BEST SELLER */
+
+/* BEGIN BEST SELLER */
+.banner {
+    background-image: url("./../images/nature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+
+.sale-off {
+    color: white;
+    text-align: center;
+    background-color: rgb(255 0 0 / 50%);
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    left: 320px;
+    top: 40px;
+}
+
+.sale-off .sale-title {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 40px;
+}
+
+.sale-off .sale-price {
+    font-size: 60px;
+    margin: 40px;
+}
+
+.sale-off .sale-des {
+    font-size: 18px;
+    margin: 18px;
+}
+
+/* END BEST SELLER */
+
+/* BEGIN SERVICE*/
+.service .service-list {
+    padding: 20px 200px;
+}
+
+.service .service-item {
+    text-align: center;
+    padding: 15px
+}
+
+.service-item .item-title {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.service-item .item-des {
+    text-align: justify;
+}
+
+/* END SERVICE */
+
+/* BEGIN FOOTER */
+.footer {
+    color: white;
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer .footer-tilte {
+    font-size: 30px;
+}
+
+.footer .p {
+    margin: 5px 0;
+}
+
+/* END FOOTER */
